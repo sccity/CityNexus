@@ -62,6 +62,7 @@ pipeline {
                     sh '''
                     php artisan migrate
                     php artisan db:seed
+                    chmod +x clean.sh
                     ./clean.sh
                     ./vendor/bin/pest
                     '''
