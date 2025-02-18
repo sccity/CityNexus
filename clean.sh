@@ -37,7 +37,7 @@ php artisan route:cache
 
 echo "Rebuilding view cache..."
 php artisan view:cache
-npm run build
+#npm run build
 
 # Optionally optimize autoload files (composer dump-autoload)
 #echo "Optimizing Composer autoload..."
